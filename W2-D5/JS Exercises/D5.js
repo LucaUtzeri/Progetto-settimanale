@@ -12,24 +12,26 @@ REGOLE
 */
 const pets = ["dog", "cat", "hamster", "redfish"];
 
+console.log("esercizio1", pets);
+
 /* ESERCIZIO 2
     Scrivi del codice per ordinare alfabeticamente gli elementi dell'array "pets".
 */
-console.log(pets.sort());
+console.log("esercizio2", pets.sort());
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 const revPets = [];
 for (let i = pets.length - 1; i >= 0; i--) {
   revPets.push(pets[i]);
-  console.log(revPets);
 }
+console.log("esercizio3", revPets);
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
 pets.unshift("redfish");
 pets.pop();
-console.log(pets);
+console.log("esercizio5", pets);
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
 */
@@ -62,14 +64,14 @@ console.log(cars);
 for (let i = 0; i < cars.length; i++) {
   cars[i].trims.pop();
 }
-console.log(cars);
+console.log("esercizio6- parte2", cars);
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 const justTrims = [];
 for (let i = 0; i < cars.length; i++) {
   justTrims.push(cars[i].trims);
-  console.log(justTrims);
+  console.log("sesrcizio7", justTrims);
 }
 
 /* ESERCIZIO 8
@@ -94,7 +96,7 @@ while (i < numericArray.length) {
     console.log(numericArray[i]);
     break;
   } else {
-    console.log(numericArray[i]);
+    console.log("Esercizio9", numericArray[i]);
   }
   i++;
 }
@@ -104,7 +106,7 @@ while (i < numericArray.length) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
-const letterArray = [];
+const letToNumbArray = [];
 let x = 0;
 
 for (let i = 0; i < charactersArray.length; i++) {
@@ -125,6 +127,6 @@ for (let i = 0; i < charactersArray.length; i++) {
     case "d":
       x = 4;
   }
-  letterArray.push(x);
+  letToNumbArray.push(x);
 }
-console.log(letterArray);
+console.log("Esercio10", letToNumbArray);
