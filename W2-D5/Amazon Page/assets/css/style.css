@@ -75,13 +75,13 @@ p {
 .perfectgift {
   text-decoration: none;
 }
-section.banners {
-  margin: 30px, 15px, 30px, 15px;
+.banners {
+  margin: 30px;
   width: 100%;
-  display: block;
+  object-position: center;
 }
 
-section.banners > h2 {
+.banners > h2 {
   font-size: 0.9rem;
   text-align: center;
   font-weight: bold;
@@ -90,9 +90,20 @@ section.banners > h2 {
 .inlineLink {
   text-decoration: none;
 }
+footer {
+  text-align: center;
+  background-color: #364759;
+}
+.backToTop {
+  color: white;
+}
 .footerlogo {
   background-color: #222f3f;
   margin: 0;
   width: 100%;
   padding-left: 20px;
+}
+.footerlogo > img {
+  width: 200px;
+  padding: 60px;
 }
