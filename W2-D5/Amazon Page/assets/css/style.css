@@ -49,6 +49,7 @@ p {
   font-weight: bold;
 }
 .perfectgift {
+  width: 100%;
   object-position: center;
   margin: 50px;
   background-color: white;
@@ -56,7 +57,7 @@ p {
   text-align: left;
 }
 .imageBox {
-  width: 23%;
+  width: 23.3%;
   margin: 0.5%;
   display: inline-block;
 }
@@ -67,7 +68,12 @@ p {
   height: 450px;
   object-fit: cover;
 }
-section.perfectgift > img {
+.perfectgift > h2 {
+  padding: 1rem;
+  font-weight: bold;
+}
+.perfectgift {
+  text-decoration: none;
 }
 section.banners {
   margin: 30px, 15px, 30px, 15px;
